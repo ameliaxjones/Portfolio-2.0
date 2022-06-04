@@ -32,7 +32,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-      <div id='txt'> </div>
+      <div id='txt'> {checkTime} </div>
       <div className='footer'><img src="assets/footer.png" alt="footer"/></div>
       <div className='footer-right'></div>
     </Router>
