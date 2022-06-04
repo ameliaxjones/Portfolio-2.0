@@ -20,9 +20,9 @@ function Home(){
                     <Draggable>
                         <div id="link-border">
                             <div id="links">
-                                <a href="https://www.linkedin.com/in/amelia-jones-84589846/" target="_blank">LinkedIn</a>
-
-                                <a href="https://github.com/ameliaxjones" target="_blank">Github</a>
+                                <a href="https://www.linkedin.com/in/amelia-jones-84589846/" target="_blank">LinkedIn <img id="linkedin" src="assets/linkedin.png"/></a>
+                                    
+                                <a href="https://github.com/ameliaxjones" target="_blank">Github <img d="github"src="assets/github.png"/></a>
                             </div>
                         </div>
                     </Draggable>
