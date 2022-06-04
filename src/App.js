@@ -1,5 +1,10 @@
 import './App.css';
-import {BroswerRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
