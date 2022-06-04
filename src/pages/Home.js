@@ -8,7 +8,10 @@ function Home(){
             <div id="icons"> 
             </div>
                  <div id="border-me">
-
+                    <div id="hello"></div>
+                    <p>Hi! <br></br>
+                        I'm Amelia, <br></br>
+                    A Jr Web Developer.</p>
                 </div>
         </div>
         

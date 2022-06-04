@@ -1,3 +1,27 @@
 #border-me{
+    background-image: url(./../public/assets/helloborder.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hello{
     background-image: url(./../public/assets/homeicon\ copy.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 108%;
+    left: 148%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-size: larger;
+    padding-top: 10%;
+    padding-left: 10%;
 }
