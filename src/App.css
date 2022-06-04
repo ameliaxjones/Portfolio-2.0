@@ -2,10 +2,14 @@ body{
   background-color: rgb(231, 212, 240);
 }
 
+
+
+
+
 .footer{
   height: 44px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   z-index: 12;
@@ -20,10 +24,10 @@ body{
   color: #000690;
 }
 
-/* .footer-right{
+.footer-right{
   height: 0px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   z-index: 11;
@@ -31,4 +35,4 @@ body{
   border-width: 21.5px 120px 22px 6px;
   border-image-slice: 22 120 22 6;
   border-style: solid;
-} */
+}

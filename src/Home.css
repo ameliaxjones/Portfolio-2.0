@@ -39,8 +39,8 @@
 #links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 30%;
+    justify-content: space-evenly;
+    padding-top: 2%;
 }
 
 #links a{
@@ -52,4 +52,16 @@
 
 a:hover{
     color: #f8b4aa
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 25%;
+    margin: 0;
+}
+
+.icons img{
+    width: 12%;
 }
