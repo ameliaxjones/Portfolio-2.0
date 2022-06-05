@@ -15,12 +15,12 @@ body{
   z-index: 12;
 }
 
-.txt{
+#time{
   position: fixed;
-  right: 32px;
-  bottom: 8px;
+  right: 1.9%;
+  bottom: -0.5%;
   z-index: 12;
-  font-size: 14px;
+  font-size: 16px;
   color: #000690;
 }
 
