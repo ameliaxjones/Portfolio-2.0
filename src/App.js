@@ -10,12 +10,25 @@ import ErrorPage from "./pages/ErrorPage";
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/"> Home</Link>
-        <Link to="/about"> About</Link>
-        <Link to="/projects"> Projects</Link>
-        <Link to="/contacts"> Contact</Link>
-      </nav>
+      <div class="nav-icon-border">
+        <div class="icon">
+          <img src="assets/home.png" alt="90's computer image" />
+          <Link to="/"> Home</Link>{" "}
+        </div>
+        <div class="icon">
+          <img src="assets/about.png" alt="simley face image" />
+          <Link to="/about"> About</Link>{" "}
+        </div>
+        <div class="icon">
+          <img src="assets/projects.png" alt="floppy disk image" />
+          <Link to="/projects"> Projects</Link>
+        </div>
+        <div class="icon">
+          <img src="assets/contact.png" alt="envelope image" />
+          <Link to="/contacts"> Contact</Link>{" "}
+        </div>
+      </div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,7 +36,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <div id="time"><DateTime/></div>
+      <div id="time">
+        <DateTime />
+      </div>
       <div className="footer">
         <img src="assets/footer.png" alt="footer" />
       </div>

@@ -3,7 +3,35 @@ body{
 }
 
 
+/* #navbar-link{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  
+  
+}
 
+
+#navbar-link a{
+  text-decoration: none;
+  margin: 2%;
+ 
+} */
+
+
+.nav-icon-border{
+  position: absolute;
+  display: flex;
+  z-index: 9;
+  width: 160px;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  padding-left: 1%;
+}
+.icon img {
+  width: 76%;
+  
+}
 
 
 .footer{
