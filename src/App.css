@@ -2,34 +2,24 @@ body{
   background-color: rgb(231, 212, 240);
 }
 
-
-/* #navbar-link{
-  display: flex;
-  flex-direction: column;
-  padding-top: 5%;
-  
-  
-}
-
-
-#navbar-link a{
-  text-decoration: none;
-  margin: 2%;
  
-} */
-
-
-.nav-icon-border{
+.nav-icon-border {
   position: absolute;
   display: flex;
-  z-index: 9;
-  width: 160px;
+  width: 100px;
   flex-wrap: wrap;
-  padding-top: 3%;
-  padding-left: 1%;
+  left: 2%;
+  top: 2%;
 }
-.icon img {
-  width: 76%;
+
+#nav-img{
+  width: 80%;
+}
+
+.nav-icon-border a{
+  text-decoration: none;
+  padding-left: 18%;
+  padding-top: 5%;
   
 }
 

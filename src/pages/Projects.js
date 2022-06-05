@@ -6,6 +6,8 @@ function Projects(){
         <div> 
             Some projects I have been working on.
         </div>
+
+        
     )
 
 }

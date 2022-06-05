@@ -11,22 +11,21 @@ function App() {
   return (
     <Router>
       <div class="nav-icon-border">
-        <div class="icon">
-          <img src="assets/home.png" alt="90's computer image" />
+        
+          <img id="nav-img" src="assets/home.png" alt="90's computer image" />
           <Link to="/"> Home</Link>{" "}
-        </div>
-        <div class="icon">
-          <img src="assets/about.png" alt="simley face image" />
+        
+        
+          <img id="nav-img"  src="assets/about.png" alt="simley face image" />
           <Link to="/about"> About</Link>{" "}
-        </div>
-        <div class="icon">
-          <img src="assets/projects.png" alt="floppy disk image" />
+       
+        
+          <img id="nav-img"  src="assets/projects.png" alt="floppy disk image" />
           <Link to="/projects"> Projects</Link>
-        </div>
-        <div class="icon">
-          <img src="assets/contact.png" alt="envelope image" />
+        
+          <img id="nav-img"  src="assets/contact.png" alt="envelope image" />
           <Link to="/contacts"> Contact</Link>{" "}
-        </div>
+        
       </div>
 
       <Routes>
