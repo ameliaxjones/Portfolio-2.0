@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
+import Toggle from "./components/Toggle";
+import ToggleProjects from "./components/ToggleProjects";
 
 function App() {
   return (
@@ -17,11 +19,12 @@ function App() {
         
         
           <img id="nav-img"  src="assets/about.png" alt="simley face image" />
-          <Link to="/about"> About</Link>{" "}
+          <Link to="/about"> About</Link>{" "} <Toggle />
        
         
           <img id="nav-img"  src="assets/projects.png" alt="floppy disk image" />
-          <Link to="/projects"> Projects</Link>
+          <Link to="/projects"> Projects</Link> < ToggleProjects />
+
         
           <img id="nav-img"  src="assets/contact.png" alt="envelope image" />
           <Link to="/contacts"> Contact</Link>{" "}

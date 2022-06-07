@@ -13,11 +13,11 @@
 #hello{
     background-image: url(./../public/assets/homeicon\ copy.png);
     background-repeat: no-repeat;
-    width: 700px;
-    height: 400px;
+    width: 150px;
+    height: 180px;
     position: absolute;
-    top: 108%;
-    left: 148%;
+    top: 71%;
+    left: 57%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Draggable from "react-draggable";
-import Typewriter from "../components/Typewriter";
 
 import "../Home.css";
 
