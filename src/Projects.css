@@ -11,17 +11,38 @@
   font-size: 14px;
   text-align: justify;
   padding-top: 5%;
+  margin: 0%;
   overflow: scroll;
   overflow-x: hidden;
 }
 
-#content-projects p {
-  padding-top: 5%;
-}
+
 
 #bottom-border{
     color: #f08080;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#project-img{
+    padding-left: 5%;
+    padding-top: 4%;
+    margin: 0;
+}
+
+#project-img img{
+    border-radius: 50%;
+}
+
+#Ehome{
+    width: 30%;
+    margin: 0 0 0 1%;
+    padding: 0;
+    float:left;
+}
+
+#txt-project{
+    margin-left: 35% ;
+    
 }
