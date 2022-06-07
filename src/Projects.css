@@ -31,7 +31,17 @@
     margin: 0;
 }
 
+#project-img-r{
+    padding-right: 5%;
+    padding-top: 4%;
+    margin: 0;
+}
+
 #project-img img{
+    border-radius: 50%;
+}
+
+#project-img-r img{
     border-radius: 50%;
 }
 
@@ -42,7 +52,18 @@
     float:left;
 }
 
+#Ehome-r{
+    width: 30%;
+    margin: 0 0 0 1%;
+    float: right;
+}
+
 #txt-project{
     margin-left: 35% ;
-    
+    margin-top: 5%;
+}
+
+#txt-project-r{
+    margin-right: 35% ;
+    margin-top: 5%;
 }

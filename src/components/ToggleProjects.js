@@ -33,7 +33,10 @@ const ToggleProjects = () => {
                   allows for anyone who plays FF to be a designer.
                 </p>
                 <div id="bottom-border">---</div>
-                <p>
+                <div id="project-img-r">
+                  <img id="Ehome-r" src="assets/horoscope.png" />
+                </div>
+                <p id="txt-project-r">
                   <a
                     href="https://github.com/ameliaxjones/horoscope"
                     target="_blank"
@@ -45,7 +48,10 @@ const ToggleProjects = () => {
                   using React, CSS, Pexel API, Aztro Api deployed on Heroku.
                   <div id="bottom-border">---</div>
                 </p>
-                <p>
+                <div id="project-img">
+                  <img id="Ehome" src="assets/leeroyvsworld.png" />
+                </div>
+                <p id="txt-project">
                   <a
                     href="https://github.com/ameliaxjones/Leeroy_vs_The_World"
                     target="_blank"
@@ -59,15 +65,18 @@ const ToggleProjects = () => {
                   to help understand the syntax and to play around with gems.
                   <div id="bottom-border">---</div>
                 </p>
-                <p>
+                <div id="project-img-r">
+                  <img id="Ehome-r" src="assets/portfolio.png" />
+                </div>
+                <p id="txt-project-r">
                   <a
                     href="https://github.com/ameliaxjones/portfoilo"
                     target="_blank"
                   >
                     Portfolio 1.0:{" "}
                   </a>{" "}
-                  This was my first website I built using only pure HTML and
-                  CSS.
+                  This was my first website I built  using only pure HTML and
+                  CSS. It still has a slight retro feel to it. 
                   <div id="bottom-border">---</div>
                 </p>
               </div>
