@@ -13,11 +13,42 @@ const ToggleProjects = () => {
       {show && (
         <div>
           <Draggable>
-            <div id="contentbox">
-              <div id="content">
-                  <h2>Projects</h2>
+            <div id="contentbox-projects">
+              <div id="content-projects">
                 <p>
-                  E
+                  Eorzea Homes: Two sided marketplace app built using Ruby,
+                  Rails, Bootstrap, CSS, Devise, PostgreSQL, AWS and deployed on
+                  Herkou. The purpose of Eorzea Homes is to easily connect FF
+                  XIV players who want to decorate their homes with designers
+                  who offer their services. Since this is a two sided
+                  marketplace it allows for anyone who plays FF to be a
+                  designer.
+                </p>
+                <div id="bottom-border">---</div>
+                <p>
+                  Daily horoscope app: An app that will tell you your daily
+                  horoscope with an added bonus of random galaxy images on each
+                  horoscope page. Created using React, CSS, Pexel API, Aztro Api
+                  deployed on Heroku.
+                  <div id="bottom-border">---</div>
+                </p>
+                <p>
+                  Leeroy vs The World: This is a quick turn-based fighting game
+                  based on the adventures my dog, Leeroy goes on. The app
+                  emulates the combat elements of Tabletop Roleplaying Games
+                  with the fight menu similar to that of the game Pokemon. This
+                  was created in Ruby to help understand the syntax and to play
+                  around with gems.
+                  <div id="bottom-border">---</div>
+                </p>
+                <p>
+                  Portfolio 1.0: This is a quick turn-based fighting game
+                  based on the adventures my dog, Leeroy goes on. The app
+                  emulates the combat elements of Tabletop Roleplaying Games
+                  with the fight menu similar to that of the game Pokemon. This
+                  was created in Ruby to help understand the syntax and to play
+                  around with gems.
+                  <div id="bottom-border">---</div>
                 </p>
               </div>
             </div>
