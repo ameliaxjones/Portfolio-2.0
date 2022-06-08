@@ -44,7 +44,7 @@ function App() {
         <DateTime />
       </div>
       <div className="footer">
-        {/* <img src="assets/footer.png" alt="footer" /> */}
+        <img src="assets/footer2.png" alt="footer" />
       </div>
       <div className="footer-right"></div>
     </Router>
