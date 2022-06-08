@@ -1,6 +1,5 @@
 import React from "react";
 import Draggable from "react-draggable";
-
 import "../Home.css";
 
 function Home() {
@@ -33,6 +32,7 @@ function Home() {
             <a href="https://github.com/ameliaxjones" target="_blank">
               Github
             </a>
+           
           </div>
         </div>
       </Draggable>

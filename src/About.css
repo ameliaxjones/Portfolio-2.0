@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   width: 545px;
   height: 385px;
+  position: relative;
+  z-index: 2;
 }
 
 #content {
@@ -21,8 +23,6 @@
   text-align: justify;
   padding: 15px;
 }
-
-
 
 
 #video-game{

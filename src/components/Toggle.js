@@ -7,7 +7,7 @@ const Toggle = () => {
 
   return (
     <div>
-      <button onClick={() => toggleShow(!show)}>About</button>
+      <button  onClick={() => toggleShow(!show)} >About</button>
       {show && (
         <div>
           <Draggable>
@@ -48,3 +48,5 @@ const Toggle = () => {
 };
 
 export default Toggle;
+
+

@@ -37,6 +37,7 @@
     top: 30%;
     left: 20%;
     cursor: pointer;
+    z-index: 1;
 }
 
 #links{
