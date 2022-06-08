@@ -20,6 +20,7 @@ function Home() {
           <div className="icons">
             <img id="linkedin" src="assets/linkedin.png" />
             <img id="github" src="assets/github.png" />
+            <img id="github" src="assets/github.png" />
           </div>
           <div id="links">
             <a
@@ -31,6 +32,13 @@ function Home() {
 
             <a href="https://github.com/ameliaxjones" target="_blank">
               Github
+            </a>
+
+            <a
+              href="/assets/Amelia _Jones_Tech_Resume.pdf"
+              target="_blank"
+            >
+              Resume
             </a>
            
           </div>

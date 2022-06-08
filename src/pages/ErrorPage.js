@@ -1,10 +1,11 @@
 import React from "react";
 
+
 function ErrorPage(){
     return (
 
         <div> 
-            Error. Page doesnt exsist
+            <p>Error. Page doesnt exsist</p>
         </div>
     )
 
