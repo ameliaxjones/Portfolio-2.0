@@ -13,13 +13,12 @@ const Toggle = () => {
           <Draggable>
             <div id="contentbox">
               <div id="content">
-                <div className="scrollable-div">
+                <div className="scrollable-div-about">
                   <img id="about-me" src="assets/desksmall.png" />
                   <p>
                     I'm Amelia I am a junior web developer currently living in
                     Brisbane, Australia. I have always enjoyed creating things
-                    from hacking together my myspace page (back when I didn't
-                    know CSS and HTML was considered coding) to drawing and
+                    from hacking together my myspace page, to drawing and
                     painting.{" "}
                   </p>
                   <p>
