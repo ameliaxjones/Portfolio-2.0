@@ -3,7 +3,7 @@ import Draggable from "react-draggable";
 import "../Projects.css";
 
 const ToggleProjects = () => {
-  const [show, toggleShow] = React.useState(true);
+  const [show, toggleShow] = React.useState(false);
 
   return (
     <div>

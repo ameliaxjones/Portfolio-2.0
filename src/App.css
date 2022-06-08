@@ -29,10 +29,12 @@ body{
 .footer{
   height: 44px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
-  z-index: 12;
+  background-image: url(../public/assets/footer2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #time{
@@ -47,12 +49,10 @@ body{
 .footer-right{
   height: 0px;
   width: 100%;
-  position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 11;
-  border-image: url("/public/assets/time.png");
+  /* border-image: url("/public/assets/footertxt.png");
   border-width: 21.5px 120px 22px 6px;
   border-image-slice: 22 120 22 6;
-  border-style: solid;
+  border-style: solid; */
 }

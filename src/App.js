@@ -9,6 +9,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Toggle from "./components/Toggle";
 import ToggleProjects from "./components/ToggleProjects";
 
+
 function App() {
   return (
     <Router>
@@ -28,6 +29,7 @@ function App() {
         
           <img id="nav-img"  src="assets/contact.png" alt="envelope image" />
           <Link to="/contacts"> Contact</Link>{" "}
+
         
       </div>
 
@@ -42,7 +44,7 @@ function App() {
         <DateTime />
       </div>
       <div className="footer">
-        <img src="assets/footer.png" alt="footer" />
+        {/* <img src="assets/footer.png" alt="footer" /> */}
       </div>
       <div className="footer-right"></div>
     </Router>

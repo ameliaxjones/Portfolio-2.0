@@ -1,11 +1,3 @@
-#about-border {
-  background-image: url(./../public/assets/aboutborder.png);
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 300px;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
 
 #contentbox {
   background-image: url("../public/assets/aboutborder.png");
@@ -20,33 +12,22 @@
   font-size: 14px;
   text-align: justify;
   padding-top: 2%;
-  overflow: scroll;
-  overflow-x: hidden;
+}
+
+.scrollable-div {
+  height: 78%;
+  overflow: auto;
+  margin: 20px;
+  text-align: justify;
+  padding: 20px;
 }
 
 #about-me{
     padding-left: 15%;
-    overflow: scroll;
-    overflow-x: hidden;
-    
 }
 
 
-p{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  border-radius: 0px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #f8b4aa;
-  border-radius: 0px;
+#video-game{
+  text-align: justify;
+  padding-top: 2%;
 }
