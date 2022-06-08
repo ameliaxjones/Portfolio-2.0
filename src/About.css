@@ -1,13 +1,13 @@
 
 #contentbox {
-  background-image: url("../public/assets/aboutborder.png");
+  background-image: url("../public/assets/aboutborder2.png");
   background-repeat: no-repeat;
   width: 545px;
   height: 385px;
 }
 
 #content {
-  width: 67.5%;
+  width: 52%;
   height: 59%;
   font-size: 14px;
   text-align: justify;
@@ -15,16 +15,14 @@
 }
 
 .scrollable-div-about {
-  height: 78%;
+  height: 120%;
   overflow: auto;
   margin: 20px;
   text-align: justify;
-  padding: 20px;
+  padding: 15px;
 }
 
-#about-me{
-    padding-left: 15%;
-}
+
 
 
 #video-game{
