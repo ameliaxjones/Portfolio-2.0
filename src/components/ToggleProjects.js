@@ -3,14 +3,8 @@ import Draggable from "react-draggable";
 import "../Projects.css";
 
 const ToggleProjects = () => {
-  const [show, toggleShow] = React.useState(false);
-
   return (
     <div>
-      <button onClick={() => toggleShow(!show)}>
-        toggle: {show ? "show" : "hide"}
-      </button>
-      {show && (
         <div>
           <Draggable>
             <div id="contentbox-projects">
@@ -88,7 +82,6 @@ const ToggleProjects = () => {
             </div>
           </Draggable>
         </div>
-      )}
     </div>
   );
 };

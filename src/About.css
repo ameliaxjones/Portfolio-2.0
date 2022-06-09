@@ -30,3 +30,11 @@
   text-align: justify;
   padding-top: 2%;
 }
+
+#TButton{
+  background-color: rgb(231, 212, 240);
+  border:0;
+  font-size: large;
+  color: rgb(85, 26, 139);
+}
+
