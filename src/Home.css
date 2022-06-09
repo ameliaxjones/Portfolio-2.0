@@ -29,13 +29,13 @@
 }
 
 #link-border{
-    background-image: url(./../public/assets/links.png);
+    background-image: url(./../public/assets/linksborder.png);
     background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 300px;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 30%;
     cursor: pointer;
     z-index: 1;
 }

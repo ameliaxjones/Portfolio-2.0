@@ -1,15 +1,17 @@
 #contentbox-projects {
-  background-image: url("../public/assets/projectsborder.png");
+  background-image: url("../public/assets/projectsborder1.png");
   background-repeat: no-repeat;
-  width: 700px;
-  height: 480px;
-  position: relative;
+  width: 500px;
+  height: 380px;
+  position: absolute;
   z-index: 3;
+  left: 50%;
+  top: 40%;
 }
 
 #content-projects {
   width: 100%;
-  height: 80%;
+  height: 40%;
   font-size: 14px;
   text-align: justify;
   padding-top: 5%;
@@ -17,14 +19,13 @@
 }
 
 .scrollable-div {
-    height: 355px;
+    height: 245px;
     overflow: auto;
-    margin: 20px;
+    margin: 10px;
     text-align: justify;
-    padding: 20px;
-    padding-top: 0%;
+    padding: 10px;
+    padding-top: 2%;
   }
-
 
 
 #bottom-border{

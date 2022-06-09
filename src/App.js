@@ -2,64 +2,67 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import DateTime from "./components/Time";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import Toggle from "./components/Toggle";
 import ToggleProjects from "./components/ToggleProjects";
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
-export const ThemeContext = React.createContext()
+export const ThemeContext = React.createContext();
 
 function App() {
   const [theme, setTheme] = useState({
     about: false,
-    projects: false
-  })
-
+    projects: false,
+  });
 
   function toggleAbout() {
     setTheme({
-      about: !theme.about
-    })
+      about: !theme.about,
+    });
   }
 
   function toggleProjects() {
     setTheme({
-      projects: !theme.projects
-    })
+      projects: !theme.projects,
+    });
   }
 
   return (
     <Router>
-      
       <div class="nav-icon-border">
-          <img id="nav-img" src="assets/home.png" alt="90's computer image" />
-          <Link to="/"> Home</Link>
-        
-        
-          <img id="nav-img"  src="assets/about.png" alt="smiley face image" onClick={toggleAbout} />
-          <a onClick={toggleAbout}  >About</a>
+        <img id="nav-img" src="assets/home.png" alt="90's computer image" />
+        <Link to="/"> Home</Link>
+
+        <img
+          id="nav-img"
+          src="assets/about.png"
+          alt="smiley face image"
+          onClick={toggleAbout}
+        />
+
+        <a onClick={toggleAbout}>About</a>
+
+        <img
+          id="nav-img"
+          src="assets/projects.png"
+          alt="floppy disk image"
+          onClick={toggleProjects}
+        />
        
-        
-          <img id="nav-img"  src="assets/projects.png" alt="floppy disk image" onClick={toggleProjects}/>
-          {/* <Link to="/projects"> Projects</Link>  */}
-          <a onClick={toggleProjects}>Projects</a>
+        <a onClick={toggleProjects}>Projects</a>
 
-        
-          <img id="nav-img"  src="assets/contact.png" alt="envelope image" />
-          <Link to="/contacts"> Contact</Link>{" "}
-
-        
+        <img id="nav-img" src="assets/contact.png" alt="envelope image" />
+        <Link
+          to="/"
+          onClick={() => (window.location = "mailto:amelia92@hey.com")}
+        >
+          Contact
+        </Link>
       </div>
-      
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <div id="time">
@@ -71,8 +74,6 @@ function App() {
       <div className="footer-right"></div>
       {theme.about ? <Toggle /> : ""}
       {theme.projects ? <ToggleProjects /> : ""}
-      
-      
     </Router>
   );
 }

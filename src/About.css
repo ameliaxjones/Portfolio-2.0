@@ -4,8 +4,10 @@
   background-repeat: no-repeat;
   width: 545px;
   height: 385px;
-  position: relative;
+  position: absolute;
   z-index: 2;
+  left: 22%;
+  top: 12%;
   
 }
 
@@ -23,6 +25,10 @@
   margin: 20px;
   text-align: justify;
   padding: 15px;
+}
+
+.scrollable-div-about p{
+  font-size: 14px;
 }
 
 

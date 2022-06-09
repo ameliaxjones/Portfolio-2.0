@@ -1,13 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import Draggable from "react-draggable";
 import "../About.css";
+
 
 const Toggle = () => {
   return (
       <div>
           <div>
             <Draggable>
-              <div id="contentbox">
+          
+              <div id="contentbox"  > 
                 <div id="content">
                   <div className="scrollable-div-about">
                     <img id="about-me" src="assets/desksmall.png" />
@@ -36,6 +38,7 @@ const Toggle = () => {
                   </div>
                 </div>
               </div>
+            
             </Draggable>
           </div>
       </div>
