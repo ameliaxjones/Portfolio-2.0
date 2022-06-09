@@ -20,7 +20,7 @@ function Home() {
           <div className="icons">
             <img id="linkedin" src="assets/linkedin.png" />
             <img id="github" src="assets/github.png" />
-            <img id="github" src="assets/github.png" />
+            <img id="github" src="assets/resumeicon.png" />
           </div>
           <div id="links">
             <a
