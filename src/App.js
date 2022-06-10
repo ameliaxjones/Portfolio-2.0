@@ -51,7 +51,7 @@ function App() {
        
         <a onClick={toggleProjects}>Projects</a>
 
-        <img id="nav-img" src="assets/contact.png" alt="envelope image" />
+        <img id="nav-img" src="assets/contact.png" alt="envelope image" onClick={() => (window.location = "mailto:amelia92@hey.com")} />
         <Link
           to="/"
           onClick={() => (window.location = "mailto:amelia92@hey.com")}

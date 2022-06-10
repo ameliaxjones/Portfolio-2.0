@@ -1,6 +1,7 @@
 import React from "react";
 import Draggable from "react-draggable";
 import "../ErrorPage.css";
+import "../Home.css";
 
 function ErrorPage() {
   return (
