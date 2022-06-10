@@ -25,7 +25,7 @@ function Home() {
           <div id="links">
             <a
               href="https://www.linkedin.com/in/amelia-jones-84589846/"
-              target="_blank"
+              
             >
               LinkedIn
             </a>
