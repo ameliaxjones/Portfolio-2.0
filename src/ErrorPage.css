@@ -1,0 +1,24 @@
+#error-border{
+    background-image: url(./../public/assets/errorborder.png);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#error-icon{
+    padding-left: 15%;
+    padding-top: 25%;
+    margin: 0;
+}
+
+
+#txt-error{
+    float: right;
+    padding-top: 25%;
+    padding-right: 20%;
+}
