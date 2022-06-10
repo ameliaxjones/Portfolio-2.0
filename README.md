@@ -16,7 +16,7 @@ The site looks best on desktops and tablets. It works on mobile but looks ugly s
 
 The site is 90% finished there are some features i would like to implement when I learn how to. (as of this point, June 2022, I have spent 10 weeks learning React from Coder Academy)
 
-Click the x on the div to close the window.
-When a div is open have it correspond to the footer.
-Create a better way to view it on a mobile device.
-Have it so multiple windows can be left open.
+* Click the x on the div to close the window.
+* When a div is open have it correspond to the footer.
+* Create a better way to view it on a mobile device.
+* Have it so multiple windows can be left open.
