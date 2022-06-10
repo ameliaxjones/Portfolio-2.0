@@ -6,7 +6,7 @@ const ToggleProjects = () => {
   return (
     <div>
         <div>
-          <Draggable>
+          
             <div id="contentbox-projects">
               <div id="content-projects">
                 <div className="scrollable-div">
@@ -80,7 +80,7 @@ const ToggleProjects = () => {
                 </div>
               </div>
             </div>
-          </Draggable>
+          
         </div>
     </div>
   );
