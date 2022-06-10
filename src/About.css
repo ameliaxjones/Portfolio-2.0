@@ -22,7 +22,7 @@
 
 .scrollable-div-about {
   height: 120%;
-  overflow: auto;
+  overflow: scroll;
   margin: 20px;
   text-align: justify;
   padding: 15px;
