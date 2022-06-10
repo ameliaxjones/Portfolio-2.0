@@ -35,7 +35,7 @@ function Home() {
             </a>
 
             <a
-              href="/assets/Amelia _Jones_Tech_Resume.pdf"
+              href="/assets/Amelia _Jones _Tech_Resume.pdf"
               target="_blank"
             >
               Resume
