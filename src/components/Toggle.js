@@ -7,7 +7,7 @@ const Toggle = () => {
   return (
       <div>
           <div>
-            <Draggable>
+            
           
               <div id="contentbox"  > 
                 <div id="content">
@@ -39,7 +39,7 @@ const Toggle = () => {
                 </div>
               </div>
             
-            </Draggable>
+            
           </div>
       </div>
   );
