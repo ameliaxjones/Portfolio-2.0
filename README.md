@@ -10,7 +10,7 @@ https://amelia-jones.netlify.app/
 
 This portfolio was built to test my new skills with react and to update my original basic HTML one ( which can be seen further down in my repositories). This site was styled with early windows theming in mind with the use of personal pixel art.  
 
-The site looks best on desktops and tablets. It works on mobile but looked ugly so I need to think of a more creative way to display it.
+The site looks best on desktops and tablets. It works on mobile but looks ugly so I need to think of a more creative way to display it.
 
 ## Sprinkles (future features)
 
