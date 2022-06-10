@@ -10,6 +10,7 @@ function ErrorPage() {
         <p id="txt-error">Error: Page Not Found.</p>
       </div>
     </Draggable>
+    
   );
 }
 
