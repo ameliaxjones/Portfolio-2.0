@@ -26,6 +26,7 @@
   margin: 20px;
   text-align: justify;
   padding: 15px;
+  webkit-overflow-scrolling: touch;
 }
 
 .scrollable-div-about p{
