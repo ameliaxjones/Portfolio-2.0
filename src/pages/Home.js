@@ -15,7 +15,7 @@ function Home() {
           </p>
         </div>
       </Draggable>
-      <Draggable>
+      
         <div id="link-border">
           <div className="icons">
             <img id="linkedin" src="assets/linkedin.png" />
@@ -43,7 +43,7 @@ function Home() {
            
           </div>
         </div>
-      </Draggable>
+      
     </div>
   );
 }
