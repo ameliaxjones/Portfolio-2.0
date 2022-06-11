@@ -15,6 +15,16 @@ function Home() {
           </p>
         </div>
       </Draggable>
+      <Draggable>
+        <div id="border-leeroy">
+          <div id="leeroy"></div>
+          <p id="hi-leeroy">
+            Hello! This website is not quite finished yet!
+            To close the content please re-click the icons
+          </p>
+         
+        </div>
+      </Draggable>
       <Draggable cancel=".cancel">
         <div id="link-border">
           <div className="icons">

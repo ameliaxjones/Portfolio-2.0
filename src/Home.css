@@ -4,7 +4,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 28%;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -27,6 +27,37 @@
     padding-top: 10%;
     padding-left: 10%;
 }
+
+#border-leeroy{
+    background-image: url(./../public/assets/leeroyborder.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#leeroy{
+    background-image: url(./../public/assets/leeroy.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 70%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#hi-leeroy{
+    font-size: 10px;
+    padding: 10%;
+}
+
+
 
 #link-border{
     background-image: url(./../public/assets/linksborder.png);
@@ -56,6 +87,10 @@
 
 a:hover{
     color: #f8b4aa
+}
+
+a:visited{
+    color: #4e4d65
 }
 
 .icons{
@@ -94,5 +129,12 @@ a:hover{
         
     }
     
-
+    #border-leeroy{
+        
+        top: 10%;
+        left: 35%;
+       
+    }
+    
+    
 }
