@@ -9,7 +9,7 @@ const Toggle = () => {
           <div>
             
           
-              <div id="contentbox"  > 
+              <div id="contentbox"> 
                 <div id="content">
                   <div className="scrollable-div-about">
                     <img id="about-me" src="assets/desksmall.png" />

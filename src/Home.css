@@ -5,7 +5,7 @@
     height: 300px;
     position: absolute;
     top: 5%;
-    left: 52%;
+    left: 28%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
@@ -34,8 +34,8 @@
     width: 350px;
     height: 300px;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 55%;
+    left: 3%;
     cursor: pointer;
     z-index: 1;
 }
@@ -70,3 +70,29 @@ a:hover{
     width: 12%;
 }
 
+/* Styling for desktop */
+
+@media only screen and (min-width:992px) {
+
+    #border-me{
+        
+        top: 5%;
+        left: 52%;
+    
+    }
+
+    #hello{
+    
+        top: 71%;
+        left: 57%;
+    }
+       
+
+    #link-border{
+        top: 30%;
+        left: 30%;
+        
+    }
+    
+
+}

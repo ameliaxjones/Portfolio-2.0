@@ -15,7 +15,7 @@ function Home() {
           </p>
         </div>
       </Draggable>
-      
+      <Draggable cancel=".cancel">
         <div id="link-border">
           <div className="icons">
             <img id="linkedin" src="assets/linkedin.png" />
@@ -24,26 +24,31 @@ function Home() {
           </div>
           <div id="links">
             <a
+              className="cancel"
               href="https://www.linkedin.com/in/amelia-jones-84589846/"
               target="_blank"
             >
               LinkedIn
             </a>
 
-            <a href="https://github.com/ameliaxjones" target="_blank">
+            <a
+              className="cancel"
+              href="https://github.com/ameliaxjones"
+              target="_blank"
+            >
               Github
             </a>
 
             <a
+              className="cancel"
               href="/assets/Amelia _Jones _Tech_Resume.pdf"
               target="_blank"
             >
               Resume
             </a>
-           
           </div>
         </div>
-      
+      </Draggable>
     </div>
   );
 }
