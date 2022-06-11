@@ -5,8 +5,8 @@
   height: 380px;
   position: absolute;
   z-index: 3;
-  left: 50%;
-  top: 40%;
+  left: 0%;
+  top: 55%;
   cursor: pointer;
 }
 
@@ -78,4 +78,31 @@
     margin-right: 35% ;
     margin-top: 5%;
 }
+
+/* Styling for desktop */
+
+@media only screen and (min-width:992px) {
+
+
+
+    #contentbox-projects {
+        background-image: url("../public/assets/projectsborder1.png");
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 380px;
+        position: absolute;
+        z-index: 3;
+        left: 50%;
+        top: 40%;
+        cursor: pointer;
+      }
+
+
+
+
+
+}
+
+
+
 
