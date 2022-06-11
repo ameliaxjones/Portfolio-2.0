@@ -9,11 +9,11 @@ const ToggleProjects = () => {
           <Draggable cancel=".cancel">
             <div id="contentbox-projects">
               <div id="content-projects">
-                <div className="scrollable-div">
+                <div className=" cancel scrollable-div">
                   <div id="project-img">
                     <img id="Ehome" src="assets/EHome.png" />
                   </div>
-                  <p id="cancel txt-project">
+                  <p id="txt-project">
                     <a
                       href="https://github.com/ameliaxjones/Eorzea-Homes"
                       target="_blank"
@@ -32,7 +32,7 @@ const ToggleProjects = () => {
                   <div id="project-img-r">
                     <img id="Ehome-r" src="assets/horoscope.png" />
                   </div>
-                  <p id="cancel txt-project-r">
+                  <p id="txt-project-r">
                     <a
                       href="https://github.com/ameliaxjones/horoscope"
                       target="_blank"
@@ -48,7 +48,7 @@ const ToggleProjects = () => {
                   <div id="project-img">
                     <img id="Ehome" src="assets/leeroyvsworld.png" />
                   </div>
-                  <p id="cancel txt-project">
+                  <p id="txt-project">
                     <a
                       href="https://github.com/ameliaxjones/Leeroy_vs_The_World"
                       target="_blank"
@@ -66,7 +66,7 @@ const ToggleProjects = () => {
                   <div id="project-img-r">
                     <img id="Ehome-r" src="assets/portfolio.png" />
                   </div>
-                  <p id="cancel txt-project-r">
+                  <p id="txt-project-r">
                     <a
                       href="https://github.com/ameliaxjones/portfoilo"
                       target="_blank"
