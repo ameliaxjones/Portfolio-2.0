@@ -51,7 +51,7 @@ function Home() {
 
             <a
               className="cancel"
-              href="/assets/Amelia _Jones _Tech_Resume.pdf"
+              href="/assets/Amelia_Jones_Tech_Resume.pdf"
               target="_blank"
             >
               Resume
